@@ -1,0 +1,75 @@
+body{
+    background-image:url(./image/web3_image.jpg) ;
+    margin: auto;
+}
+header{
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    color: #8ed40b;
+    
+  }
+  li a {
+    display: block;
+    color: rgb(46, 43, 43);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #b6b4b4;
+  }
+  li a:active {
+    background-color: #40418b;
+  }
+  .b{
+    float: right;
+    border: radius 50px;;
+
+  }
+  .b:hover{
+    
+    color: #f3349d;
+  }
+  #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+#container div{
+    height: 370px;
+    width: 335;
+    margin: 20px;
+    border-radius: 17px;
+    align-items: center;
+    text-align: center;
+   
+}
+.hi,a:active{
+  background-color: aqua;
+    }
+img{
+  border-radius: 10px;
+  border-style: groove;
+  width: auto;
+  height: 30%;
+}
